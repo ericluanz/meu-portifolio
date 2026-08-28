@@ -1,0 +1,33 @@
+# Backups locais de versões anteriores da página.
+# O histórico do git substitui esses arquivos — e no GitHub Pages
+# eles ficariam acessíveis publicamente (ex: /index.roxo.bak).
+*.bak
+
+# Variáveis de ambiente e credenciais
+.env
+.env.*
+*.pem
+*.key
+
+# Dependências e build, caso o projeto ganhe ferramentas no futuro
+node_modules/
+dist/
+build/
+npm-debug.log*
+yarn-error.log*
+
+# Editores
+.vscode/
+.idea/
+*.code-workspace
+*~
+*.swp
+
+# Configuração local do Claude Code
+.claude/settings.local.json
+
+# Lixo de sistema
+Thumbs.db
+ehthumbs.db
+desktop.ini
+.DS_Store
