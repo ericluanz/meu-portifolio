@@ -457,6 +457,15 @@ const PROJECTS = [
       en: 'Manager for Samba file servers on Debian/Ubuntu: sector creation with disk quotas, group permissions and ACLs, managers and exception access, recycle bin with restore and disk optimization.'
     },
     stat: '4', statLabel: { pt: 'MÓDULOS DE GESTÃO', en: 'MANAGEMENT MODULES' }
+  },
+  {
+    num: '/06', name: 'bot-gastos-notion', stack: 'TYPESCRIPT · CLAUDE API · NOTION · VERCEL',
+    url: 'https://github.com/ericluanz/bot-gastos-notion',
+    desc: {
+      pt: 'Bot de Telegram e WhatsApp que registra gastos e ganhos no Notion a partir de mensagens livres ("almoço 32,50 nubank"): o Claude interpreta valor, data, tag e forma de pagamento, liga ao mês certo do orçamento e oferece um botão de desfazer. Roda em funções serverless na Vercel, com modo por palavras-chave quando a IA está indisponível.',
+      en: 'Telegram and WhatsApp bot that logs expenses and income to Notion from free-form messages ("lunch 32.50 nubank"): Claude extracts amount, date, tag and payment method, links the entry to the right month of the budget and offers an undo button. Runs as serverless functions on Vercel, with a keyword fallback when the AI is unavailable.'
+    },
+    stat: '2', statLabel: { pt: 'CANAIS DE ENTRADA', en: 'INPUT CHANNELS' }
   }
 ];
 

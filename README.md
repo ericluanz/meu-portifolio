@@ -22,7 +22,7 @@ A página é organizada em cinco seções numeradas:
 |---|-------|----------|
 | 01 | **Stack** | Ferramentas do dia a dia — Windows Server, Linux/RHEL, Active Directory, Azure, AWS, redes, Zabbix/Grafana, PowerShell/Python, Jira, backup e endpoint |
 | 02 | **Experiência** | Linha do tempo profissional, de help desk a suporte e infraestrutura |
-| 03 | **Projetos** | Cinco repositórios de automação nascidos de problemas reais de operação |
+| 03 | **Projetos** | Seis repositórios de automação nascidos de problemas reais de operação |
 | 04 | **Formação** | Graduação em Ciência da Computação e certificações em cloud, Linux, redes e automação |
 | 05 | **Contato** | E-mail, GitHub e LinkedIn |
 
@@ -33,6 +33,7 @@ Os projetos em destaque, todos com repositório próprio:
 - [`powershell-automation`](https://github.com/ericluanz/powershell-automation) — provisionamento de um domínio Active Directory em oito etapas
 - [`python-automation`](https://github.com/ericluanz/python-automation) — rotinas de infraestrutura em Python
 - [`samba-automation`](https://github.com/ericluanz/samba-automation) — gerenciador de servidores de arquivos Samba em Debian/Ubuntu
+- [`bot-gastos-notion`](https://github.com/ericluanz/bot-gastos-notion) — bot de Telegram e WhatsApp que registra gastos no Notion com a API do Claude
 
 ---
 
